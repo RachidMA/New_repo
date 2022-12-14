@@ -1,0 +1,110 @@
+
+body{
+    background-color: rgb(75, 131, 149);
+}
+
+
+.container {
+    
+    height: 400px;
+    display: flex;
+    align-items: center;
+   
+    margin: 0px;
+   
+}
+
+
+
+
+
+.name , P{
+    padding: 5px;
+    margin-left: 25px;
+    font-size: large;
+   
+}
+
+
+
+
+img{
+    width: 150px;
+    
+    margin: 20px;
+    border-radius: 50px;
+}
+
+.inspiration {
+    border: 5px solid black;
+    padding: 20px;
+    margin-left: 500px;
+    border-radius: 20px;
+    font-family:'italics';
+    background-color: white;
+    text-align: center;
+}
+
+table{
+    width: 500px;
+    height: 150px;
+    margin: 50px;
+    background-color: white;
+
+
+}
+
+table, th, td {
+    border:1px solid black;
+  }
+
+th, td{
+
+    text-align: center;
+}
+
+.table-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hobbies{
+    padding-left: 20px;
+}
+
+hr {
+    color: black;
+}
+.count-me, .funny-story{
+    padding-left: 25px;
+}
+
+.next {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin: 30px;
+    
+}
+
+a button {
+    background-color: black;
+    color: white;
+    width:100px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+a button:hover {
+    color: red;
+    
+
+}
+
